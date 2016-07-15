@@ -1,0 +1,15 @@
+11:33:38 **** Build of configuration Debug for project valgrindc ****
+make all 
+Building file: ../src/valgrindc.c
+Invoking: GCC C Compiler
+/opt/poky/2.1+snapshot/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a8 --sysroot=/opt/poky/2.1+snapshot/sysroots/cortexa8hf-neon-poky-linux-gnueabi -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF "src/valgrindc.d" -MT "src/valgrindc.d" -o "src/valgrindc.o" "../src/valgrindc.c"
+Finished building: ../src/valgrindc.c
+ 
+Building target: valgrindc
+Invoking: GCC C Linker
+/opt/poky/2.1+snapshot/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a8 --sysroot=/opt/poky/2.1+snapshot/sysroots/cortexa8hf-neon-poky-linux-gnueabi  -o "valgrindc"  ./src/valgrindc.o   
+Finished building target: valgrindc
+ 
+
+11:33:39 Build Finished (took 409ms)
+
