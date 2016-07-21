@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.timesys.ide.cdev.ui.launch.launchConfigDelegate">
+<stringAttribute key="com.timesys.ide.EXEC_COMMAND" value="./testcmd"/>
+<listAttribute key="com.timesys.ide.FILE_LIST">
+<listEntry value="[Target Program]"/>
+<listEntry value="."/>
+</listAttribute>
+<booleanAttribute key="com.timesys.ide.USE_DEFAULT_COMMAND" value="true"/>
+<stringAttribute key="com.timesys.ideTARGET_ID" value=""/>
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/testcmd"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="testcmd"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.timesys.ide.cdev.config.exe.debug.1182163476"/>
+<stringAttribute key="org.eclipse.cdt.launch.WORKING_DIRECTORY" value="."/>
+<booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/testcmd"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+</launchConfiguration>

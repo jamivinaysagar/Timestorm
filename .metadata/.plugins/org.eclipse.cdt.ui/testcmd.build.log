@@ -1,0 +1,15 @@
+20:30:05 **** Build of configuration Debug for project testcmd ****
+make all 
+Building file: ../src/testcmd.c
+Invoking: GCC C Compiler
+/opt/poky/2.1+snapshot/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a8 --sysroot=/opt/poky/2.1+snapshot/sysroots/cortexa8hf-neon-poky-linux-gnueabi -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF "src/testcmd.d" -MT "src/testcmd.d" -o "src/testcmd.o" "../src/testcmd.c"
+Finished building: ../src/testcmd.c
+ 
+Building target: testcmd
+Invoking: GCC C Linker
+/opt/poky/2.1+snapshot/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a8 --sysroot=/opt/poky/2.1+snapshot/sysroots/cortexa8hf-neon-poky-linux-gnueabi -pthread -o "testcmd"  ./src/testcmd.o   
+Finished building target: testcmd
+ 
+
+20:30:05 Build Finished (took 140ms)
+
