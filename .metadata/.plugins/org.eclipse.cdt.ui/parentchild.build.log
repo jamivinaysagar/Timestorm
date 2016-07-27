@@ -1,0 +1,7 @@
+12:10:50 **** Clean-only build of configuration Debug for project parentchild ****
+make clean 
+rm -rf  ./src/parentchild.o  ./src/parentchild.d  parentchild
+ 
+
+12:10:50 Build Finished (took 62ms)
+
